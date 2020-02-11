@@ -1,0 +1,12 @@
+commit 7dc394f36e43f6c8a417c1cfef8601dfe4725867 (HEAD -> master)
+Author: Anastasiya <na.zzzya17@gmail.com>
+Date:   Tue Feb 11 11:34:09 2020 +0300
+
+    add task1/status.txt
+
+commit 963218f1538240949cdef0c2dd09be9a1a994829
+Author: Anastasiya <na.zzzya17@gmail.com>
+Date:   Tue Feb 11 11:32:34 2020 +0300
+
+    add .gitignore
+
