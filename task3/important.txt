@@ -1,4 +1,0 @@
- <a class="external" href="https://htmlacademy.ru">…</a>
-ссылка
-<em> kursiv
-<strong> girniy
