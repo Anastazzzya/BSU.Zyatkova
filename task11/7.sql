@@ -1,0 +1,1 @@
+SELECT concat(DATEDIFF(CURRENT_TIMESTAMP, CREATED_AT),' days ago')'first post lounded' FROM POST order by CREATED_AT limit 1;
