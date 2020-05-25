@@ -1,0 +1,246 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    overflow-y: scroll;
+    overscroll-behavior-y: none;
+    margin: 0;
+    min-height: 600px;
+    max-width: 100%;
+}
+.logo{
+    width: 100px;
+    align: center;
+}
+header{
+    width: auto;
+    font-size: 21px;
+    border-bottom: 2px solid lightgray;
+}
+.picbut{
+    width: 40px;
+    height: 40px;
+}
+.menubut{
+    font-size: 15px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    color: #460e56;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: #f2c9fb;
+}
+.note1{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: #460e56;
+}
+.leftcol {
+    position: fixed;
+    padding-left: 30px;
+    border-right: 2px solid lightgray;
+    width: 220px;
+    height: 100%;
+}
+.middlecol{
+    width: auto;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 240px;
+    min-width: 300px;
+}
+.namepage{
+    font-size: 21px;
+    border-bottom: 2px solid lightgray;
+    padding-left: 10px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+.rightcol{
+    position: fixed;
+    right: 0%;
+    border-left: 2px solid lightgray;
+    width: 240px;
+    height: 100%;
+    max-width: 30%;
+}
+.searchtags{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.edit{
+    font-size: 15px;
+    width: 160px;
+    height: 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #f2c9fb;
+}
+.filtred{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.filt{
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    right: 50px;
+    top: 120px;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: white;
+    background-color: #460e56;
+}
+.postnew{
+    border-bottom: 2px solid lightgray;
+}
+.makenote{
+    font-size: 15px;
+    resize: none;
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: white;
+}
+.note2{
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    margin-left: 60%;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: #460e56;
+}
+.date2{
+    font-size: 15px;
+    width: 190px;
+    height: 30px;
+    margin-left: 10px;
+    color: #460e56;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: white;
+}
+.userfoto{
+    width: 50px;
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.pic{
+    margin-left: 10%;
+    width: 35px;
+    height: 25px;
+    color: #460e56;
+    border: none;
+    background-color: white;
+}
+.picadd{
+    width: 100%;
+    height: 100%;
+}
+.textnote{
+    width: auto;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.userpost{
+    float: left;
+    margin-left: 70px;
+}
+.userlogo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.date-and-time{
+    margin-top: -2%;
+    margin-left: 80%;
+}
+.user-post{
+    border-bottom: 2px solid lightgray;
+}
+.user-name{
+    height: 0;
+    margin-top: -1%;
+    margin-left: 20%;
+    color: #460e56;
+}
+.post-text{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.add-like{
+    width: 110%;
+    height: 100%;
+}
+.likebut{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+.like{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.editnote{
+    margin-top: -3%;
+    margin-left: 80%;
+}
+.editbut{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+.edit-but{
+    width: 110%;
+    height: 100%;
+}
+.deletebut{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+.delete-but{
+    width: 110%;
+    height: 100%;
+    margin-left: 2%;
+}
+.more{
+    font-size: 15px;
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 140px;
+    height: 40px;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    background-color: #460e56;
+}
+.post-images{
+    width: 70%;
+    height: 10%;
+}
+footer{
+    margin-top: 60px;
+    border-top: 2px solid lightgray;
+    width: 210px;
+    font-size: 16px;
+    text-align: right;
+    color: #999999;
+}
+

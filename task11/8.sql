@@ -1,0 +1,1 @@
+SELECT NAME, count(p.POST_ID)' posts amount today' FROM USER a join POST p on a.USER_ID=p.USER_ID where p.CREATED_AT between CURDATE() and CURDATE()+1 group by a.USER_ID having count(p.POST_ID) > 3;
