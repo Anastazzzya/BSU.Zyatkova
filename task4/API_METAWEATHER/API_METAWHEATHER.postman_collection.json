@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "44f675d7-31fe-47d3-b425-ba42449557e1",
+		"name": "API_METAWHEATHER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.metaweather.com/api/location/search/?query=san",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/search/?query=san",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "san"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.metaweather.com/api/location/search/?query=london",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/search/?query=london",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "london"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.metaweather.com/api/location/2487956/ ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/2487956/ ",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"2487956",
+						" "
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
