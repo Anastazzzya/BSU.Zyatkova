@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "3e336457-a979-40c7-82b6-c5dce162fa71",
+		"name": "API_TVMaze",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://api.tvmaze.com/lookup/shows?tvrage=24493",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.tvmaze.com/lookup/shows?tvrage=24493",
+					"protocol": "http",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"lookup",
+						"shows"
+					],
+					"query": [
+						{
+							"key": "tvrage",
+							"value": "24493"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.tvmaze.com/schedule?country=US&date=2014-12-01",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.tvmaze.com/schedule?country=US&date=2014-12-01",
+					"protocol": "http",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"schedule"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "US"
+						},
+						{
+							"key": "date",
+							"value": "2014-12-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://api.tvmaze.com/shows/1/episodesbydate?date=2013-07-01",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.tvmaze.com/shows/1/episodesbydate?date=2013-07-01",
+					"protocol": "http",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"shows",
+						"1",
+						"episodesbydate"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2013-07-01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
